@@ -1,0 +1,15 @@
+{
+  "dataset": "UCI Default of Credit Card Clients (id=350)",
+  "random_state": 42,
+  "n_clusters": 3,
+  "colunas_segmentacao": [
+    "limite_credito",
+    "fatura_media",
+    "pagamento_medio",
+    "meses_em_atraso",
+    "maior_atraso",
+    "atraso_medio",
+    "uso_medio_limite"
+  ],
+  "split": "primeiro fold StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=42)"
+}
