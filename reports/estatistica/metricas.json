@@ -1,0 +1,17 @@
+{
+  "n_registros_treino": 24000,
+  "qui_quadrado": 3390.5677129561664,
+  "p_qui_quadrado": 0.0,
+  "v_cramer": 0.37586387789531855,
+  "segmento_menor_risco": 1,
+  "segmento_maior_risco": 2,
+  "diferenca_taxas": 0.3789336162991566,
+  "ic_diferenca_95": [
+    0.3647927154233312,
+    0.3936601118583437
+  ],
+  "mann_whitney_u": 60950387.5,
+  "p_mann_whitney": 3.658835931530326e-143,
+  "bootstrap_repeticoes": 2000,
+  "random_state": 42
+}
