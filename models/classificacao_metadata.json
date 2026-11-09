@@ -1,0 +1,30 @@
+{
+  "dataset": "UCI Default of Credit Card Clients (id=350)",
+  "modelo": "Random Forest",
+  "limiar": 0.19,
+  "features": [
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "LIMIT_BAL",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "random_state": 42,
+  "split": "primeiro fold StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=42)",
+  "selecao": "PR-AUC em probabilidades out-of-fold no treino",
+  "ajuste_limiar": "maior F2 out-of-fold no treino"
+}
